@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
+:root {
+  --dark-blue: #264653;
+  --green: #2a9d8f;
+  --yellow: #ffc947;
+  --orange: #e76f51;
+  --black: rgb(10, 20, 28) ;
+}
+
+::-moz-placeholder {
+  color: #d0faf5;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #d0faf5;
+  opacity: 1;
+}
+
+::placeholder {
+  color: #d0faf5;
+  opacity: 1;
+}
+
+body {
+  background-color: var(--black);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+li {
+  list-style: none;
+}
+
+.Logo {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+  color: var(--green);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 50%;
+  transform: translateX(50%);
+  margin-bottom: 6rem;
+}
+form button {
+  background-color: var(--green);
+  color: white;
+  font-weight: 500;
+  border-radius: 3px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  align-self: flex-end;
+}
+form button:hover {
+  cursor: pointer;
+}
+form input {
+  font-size: 1.5rem;
+}
+form * {
+  background-color: var(--dark-blue);
+  border: none;
+  padding: 0.5rem;
+  color: white;
+}
+
+div.container {
+  border: #1c3742 6px solid;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: var(--dark-blue);
+  color: var(--yellow);
+  display: flex;
+  justify-content: space-between;
+}
+div.container .button {
+  justify-self: center;
+  align-self: center;
+}
+div.container .button button {
+  padding: 8px 17px;
+  border: none;
+  background-color: var(--orange);
+  border-radius: 5px;
+  border: solid 3px rgb(255, 140, 111);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+div.container .button button:hover {
+  cursor: pointer;
+}
+div.container .button button:active {
+  background-color: #d85f40;
+}
+div.container .task-title {
+  font-size: 2rem;
+  font-weight: 500;
+}/*# sourceMappingURL=index.css.map */
